@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px;
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.display{
+  width: 20%;
+  background-color: aqua;
+}
+.letter {
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+.right{
+    background-color: green;
+}
+.wrong{
+   background-color: gray;
+}
+.misplaced{
+  background-color: yellow;
+}
+
+.lostText{
+  color: red;
+}
+
+.inputContainer{
+  display: flex;
+}
+.input{
+  width: 100%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.resetButton{
+  width: 45%;
+}
+
+.submitButton{
+  width: 45%;
+  color: white;
+  padding: 10px;
+}
+
+.form{
+  width: 20%;
+  margin: 20px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.buttons {
+ display: flex;
+ justify-content: space-between;
+ padding: 10px;
+}
+
