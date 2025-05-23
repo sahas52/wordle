@@ -52,6 +52,7 @@ function App() {
     "known",
     "cable",
     "faces",
+    "races",
   ];
 
   const [guesses, setGuesses] = useState([
@@ -172,20 +173,17 @@ function App() {
 export default App;
 
 const target = "apple";
-const words = ["words","enter","cable","enjoy","judge","known"];
-const chance = 6
+const words = ["words", "enter", "cable", "enjoy", "judge", "known"];
+const chance = 6;
 
 const takeInput = (guess) => {
-
-  if(guess.toUpperCase() === target.toUpperCase()){
+  if (guess.toUpperCase() === target.toUpperCase()) {
     console.log("You won the game");
   } else {
     chance = chance - 6;
-
   }
 
-  if(chance===0){
-    console.log("You lost the game.")
+  if (chance === 0) {
+    console.log("You lost the game.");
   }
-
-}
+};
